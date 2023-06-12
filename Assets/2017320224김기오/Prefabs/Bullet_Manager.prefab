@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1783769395530374}
+  m_IsPrefabAsset: 1
+--- !u!1 &1783769395530374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4697816691937772}
+  - component: {fileID: 114838857650456148}
+  m_Layer: 0
+  m_Name: Bullet_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4697816691937772
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783769395530374}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.43149966, y: 0.39811257, z: -6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114838857650456148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783769395530374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ae1d1446e374334d95bd0805af27502, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  original_bullet: {fileID: 1202846187856906, guid: dd4effea05a71f74595b6138ee98e0f6,
+    type: 2}
+  circular_bullet: {fileID: 0}
+  Fade_Mask: {fileID: 0}
+  StarEffect: {fileID: 0}
+  UIPopUpAtPlayerDeath: []
+  UICurrentScore: {fileID: 0}
+  UIHighscore: {fileID: 0}
+  camera: {fileID: 0}
+  BS: 1
+  BGM: {fileID: 0}
+  DeathSound: {fileID: 0}
+  bullet_interval: 0
+  stage_interval: 0
+  range: 0.5
+  check_time_for_interval: 0
+  check_time_for_stage: 0
+  elasped_time: 0
+  bullet_speed: 10
+  bullet_spread: 0
+  bullet_safe_range: 0
+  current_score: 0
+  CircularBulletChangePosActive: 1
+  PlayerInvincible: 0
